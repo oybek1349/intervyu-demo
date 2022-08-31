@@ -8,7 +8,7 @@
 namespace app\assets;
 
 use yii\web\AssetBundle;
-
+use yii\bootstrap5\BootstrapAsset;
 /**
  * Main application asset bundle.
  *
@@ -26,6 +26,6 @@ class AppAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-         yii\bootstrap5\BootstrapAsset::class
+         BootstrapAsset::class,
     ];
 }

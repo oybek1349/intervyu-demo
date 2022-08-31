@@ -4,18 +4,29 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'basic',
+    'id' => 'tanlov',
+    'name' => 'TANLOV-DEMO',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'language' => 'uz-UZ',
+    'timeZone' => 'Asia/Tashkent',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
+    ],
+    'modules' => [
+        'intervyu' => [
+            'class' => app\modules\intervyu\IntervyuModule::class,
+        ],
     ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'xVHts5oO6Vk1mZfuG5IhHe0C9GnQPQen',
-        ],
+            'csrfParam' => '_csrf-frontend',
+            'enableCsrfValidation' => true,
+
+        ],                
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -42,14 +53,13 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
