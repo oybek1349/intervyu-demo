@@ -39,19 +39,19 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'Asosiy oyna', 'url' => ['/site/index']],
             ['label' => 'Tanlov', 'url' => ['/intervyu']],
             ['label' => 'Nomzodlar', 'url' => ['/site/nomzodlar']],
-            /*!Yii::$app->user->isGuest
-                ? ['label' => 'Login', 'url' => ['/site/login']]
+            Yii::$app->user->isGuest
+                ? ['label' => 'Kabinetga kirish', 'url' => ['/site/login']]
                 : '<li class="nav-item">'
                     . Html::beginForm(['/site/logout'])
                     . Html::submitButton(
-                        'Logout (' . Yii::$app->user->identity->username . ')',
+                        'Chiqish (' . Yii::$app->user->identity->username . ')',
                         ['class' => 'nav-link btn btn-link logout']
                     )
                     . Html::endForm()
-                    . '</li>'*/
+                    . '</li>'
         ]
     ]);
     NavBar::end();
@@ -71,7 +71,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <footer id="footer" class="mt-auto py-3 bg-dark">
     <div class="container">
         <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start">&copy; My Company <?= date('Y') ?></div>
+            <div class="col-md-6 text-center text-md-start">&copy; Oybek Ne'matov 2022 <?= date('Y') ?></div>
             <div class="col-md-6 text-center text-md-end"><?= Yii::powered() ?></div>
         </div>
     </div>

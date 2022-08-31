@@ -25,7 +25,9 @@ $config = [
             'cookieValidationKey' => 'xVHts5oO6Vk1mZfuG5IhHe0C9GnQPQen',
             'csrfParam' => '_csrf-frontend',
             'enableCsrfValidation' => true,
-
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ]
         ],                
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -57,7 +59,14 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => false,
             'rules' => [
+                [ 
+                    'class' => 'yii\rest\UrlRule', 
+                    'controller' => '/intervyu/api',
+                    //'pluralize' => false,
+                   // 'except' => ['delete', 'create', 'update'], 
+                ],
             ],
         ],
     ],
