@@ -69,7 +69,7 @@ $config = [
                 ],
                 'GET intervu/api/<id:\d+>' => 'intervyu/api/get',
                 'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/create',
-                'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/update',
+                'PUT,PATCH intervu/api/<id:\d+>' => 'intervyu/api/update',
                 "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',  
 
             ],
