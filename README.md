@@ -29,9 +29,8 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         <pre> >> yii migrate-i </pre>
     </li>
     <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan 
-        intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. 
-        
-        <p align="left"> Modulni ishga tushurish sozlamasi: </p> 
+        intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating.         
+        Modulni ishga tushurish sozlamasi: 
         
         <pre>
             'modules' => [
