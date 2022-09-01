@@ -6,7 +6,9 @@
     <br>
 </p>
 
-Ushbu dastur Yii 2 frimevorkda ishab chiqilgan dasturni o'rnatish uchun
+Ushbu dastur Yii 2 frimevorkda ishab chiqilgan dasturni o'rnatish uchun 
+<pre >git clone https://github.com/oybek1349/intervyu-demo.git </pre> 
+buyurig'idan foydalaning yoki,
 <b>arxiv</b> faylni yuklab oling va veb serverga joylashtiring.
 <h3>Dasturni ishga tushurish:</h3>
 Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring: 
