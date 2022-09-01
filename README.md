@@ -60,9 +60,5 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
             ],
         
     </li>
-    <li>  
-    
-    </li>
-    <li> </li>
 </ul>
 
