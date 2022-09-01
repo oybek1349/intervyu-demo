@@ -26,7 +26,7 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
     </li>
     <li> Ma'lumotlar omborida dastur uchun kerakli bo'ladigan jadvallarni hosil qilish uchun,
         Server buyruq yozish oynasiga kirib quyidagi buyruqni ya'ni migratsiya buyrug'ini kiriting:
-        <b><span> >> yii migrate-i </span></b>
+        <pre> >> yii migrate-i </pre>
     </li>
     <li> </li>
     <li> </li>
