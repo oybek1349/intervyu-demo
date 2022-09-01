@@ -67,6 +67,11 @@ $config = [
                     //'pluralize' => false,
                    // 'except' => ['delete', 'create', 'update'], 
                 ],
+                'GET intervu/api/<id:\d+>' => 'intervyu/api/get',
+                'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/create',
+                'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/update',
+                "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',  
+
             ],
         ],
     ],
