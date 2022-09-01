@@ -32,16 +32,14 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating.         
         
         Modulni ishga tushurish sozlamasi:         
-        
+        <pre>
             'modules' => [
                 'intervyu' => [
                     'class' => app\modules\intervyu\IntervyuModule::class,
                 ],
             ],     
-        
-        
-        Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari: 
-                    
+        </pre>        
+        Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:                     
     </li>
 </ul>
      <pre> 'urlManager' => [
