@@ -28,8 +28,36 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         Server buyruq yozish oynasiga kirib quyidagi buyruqni ya'ni migratsiya buyrug'ini kiriting:
         <pre> >> yii migrate-i </pre>
     </li>
-    <li> </li>
-    <li> </li>
+    <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. Modulni ishga tushuish sozlamasi: 
+        <pre>
+            'modules' => [
+                'intervyu' => [
+                    'class' => app\modules\intervyu\IntervyuModule::class,
+                ],
+            ],
+        </pre>
+        <h3>****** Modul uchun Rest Full API ni ishga tushurish sozlamalari:</h3>
+        <pre>
+            'urlManager' => [
+                'enablePrettyUrl' => true,
+                'showScriptName' => false,
+                'enableStrictParsing' => false,
+                'rules' => [
+                    [ 
+                        'class' => 'yii\rest\UrlRule', 
+                        'controller' => '/intervyu/api',
+                    ],
+                    'GET intervu/api/<id:\d+>' => 'intervyu/api/get',
+                    'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/create',
+                    'PUT,PATCH intervu/api/<id:\d+>' => 'intervyu/api/update',
+                    "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',
+                ],
+            ],
+        </pre>
+    </li>
+    <li>  
+    
+    </li>
     <li> </li>
 </ul>
 
