@@ -59,4 +59,40 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
             ],
         ],
   </pre>
-      
+  
+  <h3>Naomzodalar Tanlov uchun ariza yuborish formasi: </h3>
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/frontend-add-nomzod.JPG" height="500px">
+  
+  <h3>Admin uchun kirish oynasi. Kirish uchun quyidagilarni kiriting: </h3>
+  
+  <p>Login: admin</p>
+  <p>Parol: admin</p>
+  
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/frontend-login.JPG" height="500px">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
