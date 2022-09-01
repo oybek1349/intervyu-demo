@@ -28,7 +28,9 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         Server buyruq yozish oynasiga kirib quyidagi buyruqni ya'ni migratsiya buyrug'ini kiriting:
         <pre> >> yii migrate-i </pre>
     </li>
-    <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. Modulni ishga tushuish sozlamasi: 
+    <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. 
+        <p>Modulni ishga tushuish sozlamasi:</p> 
+        
         <pre>
             'modules' => [
                 'intervyu' => [
@@ -36,7 +38,9 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
                 ],
             ],
         </pre>
-        <h3>****** Modul uchun Rest Full API ni ishga tushurish sozlamalari:</h3>
+        
+        <h3>****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:</h3>
+        
         <pre>
             'urlManager' => [
                 'enablePrettyUrl' => true,
