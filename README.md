@@ -40,10 +40,11 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
             ],       
         
         
-        ****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:
-        
-       
-            'urlManager' => [
+        ****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari: 
+                    
+    </li>
+</ul>
+     <pre> 'urlManager' => [
                 'enablePrettyUrl' => true,
                 'showScriptName' => false,
                 'enableStrictParsing' => false,
@@ -58,7 +59,5 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
                     "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',
                 ],
             ],
-        
-    </li>
-</ul>
-
+      </pre>
+      
