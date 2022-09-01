@@ -37,10 +37,10 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
                 'intervyu' => [
                     'class' => app\modules\intervyu\IntervyuModule::class,
                 ],
-            ],       
+            ],     
         
         
-        ****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari: 
+        Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari: 
                     
     </li>
 </ul>
