@@ -60,9 +60,10 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         ],
   </pre>
   
-  <h3>Naomzodalar Tanlov uchun ariza yuborish formasi: </h3>
+  <h3>Nomzodlar Tanlov uchun ariza yuborish formasi: </h3>
   <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/frontend-add-nomzod.JPG" height="500px">
   
+  <h1> Admin uchun </h1>
   <h3>Admin uchun kirish oynasi. Kirish uchun quyidagilarni kiriting: </h3>
   
   <p>Login: admin</p>
@@ -70,29 +71,35 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
   
   <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/frontend-login.JPG" height="500px">
   
+  <h3>Nomzodlar ro'yixati bilan tanishish oynasi. </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/backend-nomzodlar-ruyixati.JPG" height="500px">
   
+  <h3>Nomzodlarga intervyu belgilash. </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/backend-nozodlarga-intervyu belgilash.jpg" height="500px">
   
+  <h1> REST API admin uchun </h1>
   
+  <h3> Barcha nomzodlar ro'yixatini json formatda olish </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/get-rest-api.JPG" height="500px">
   
+  <h3> ID yordamida nomzod ma'lumotlarini json formatda olish </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/get-nomzod-id-buyicha.JPG" height="500px">
   
+  <h3> Yangi nomzod qo'shish </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/create-rest-api.JPG" height="500px">
+ 
+  <h3> Yuborilgan ID ga mos Nomzod ma'lumotlarini o'zgartirish </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/update-rest-api.JPG" height="500px">
+ 
+  <h3> Yuborilgan ID ga mos Nomzod ma'lumotlarini o'chirish. </h3>
   
+  <img src="https://github.com/oybek1349/intervyu-demo/blob/master/images/delete-nomzod-id-buyicha.JPG" height="500px">
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <h1>E'tiboringiz uchun raxmat!<h1>
+  <h3>Author Oybek Ne'matov Erkin o'g'li</h3>
