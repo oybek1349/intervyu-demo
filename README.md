@@ -28,8 +28,10 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
         Server buyruq yozish oynasiga kirib quyidagi buyruqni ya'ni migratsiya buyrug'ini kiriting:
         <pre> >> yii migrate-i </pre>
     </li>
-    <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. 
-        <p>Modulni ishga tushuish sozlamasi:</p> 
+    <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan 
+        intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating. 
+        
+        <p align="left"> Modulni ishga tushurish sozlamasi: </p> 
         
         <pre>
             'modules' => [
