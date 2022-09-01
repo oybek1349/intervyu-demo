@@ -30,19 +30,19 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
     </li>
     <li> Agar dasturni o'zingizni yii2 dasturingizga integratsiya qilmoqchi bulsangiz modules papkasida joylashgan 
         intervyu modulini dasturingiz modullari qatoriga qo'shib kerakli sozlamarni o'rnating.         
-        Modulni ishga tushurish sozlamasi: 
         
-        <pre>
+        Modulni ishga tushurish sozlamasi:         
+        
             'modules' => [
                 'intervyu' => [
                     'class' => app\modules\intervyu\IntervyuModule::class,
                 ],
-            ],
-        </pre>
+            ],       
         
-        <h3>****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:</h3>
         
-        <pre>
+        ****** Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:
+        
+       
             'urlManager' => [
                 'enablePrettyUrl' => true,
                 'showScriptName' => false,
@@ -58,7 +58,7 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
                     "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',
                 ],
             ],
-        </pre>
+        
     </li>
     <li>  
     
