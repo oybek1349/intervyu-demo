@@ -32,30 +32,31 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
     </li>
 </ul>
 
-     Modulni ishga tushurish sozlamasi:         
-        <pre>
-            'modules' => [
-                'intervyu' => [
-                    'class' => app\modules\intervyu\IntervyuModule::class,
-                ],
-            ],     
-        </pre>        
-        Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari:
+  <h3>Modulni ishga tushurish sozlamasi:</h3>         
+<pre>
+    'modules' => [
+        'intervyu' => [
+            'class' => app\modules\intervyu\IntervyuModule::class,
+        ],
+    ],     
+</pre>        
         
-     <pre> 'urlManager' => [
-                'enablePrettyUrl' => true,
-                'showScriptName' => false,
-                'enableStrictParsing' => false,
-                'rules' => [
-                    [ 
-                        'class' => 'yii\rest\UrlRule', 
-                        'controller' => '/intervyu/api',
-                    ],
-                    'GET intervu/api/<id:\d+>' => 'intervyu/api/get',
-                    'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/create',
-                    'PUT,PATCH intervu/api/<id:\d+>' => 'intervyu/api/update',
-                    "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',
+ <h3> Modul REST API rejimi uchun REST FULL API ni ishga tushurish sozlamalari: </h3>
+        
+ <pre> 'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'rules' => [
+                [ 
+                    'class' => 'yii\rest\UrlRule', 
+                    'controller' => '/intervyu/api',
                 ],
+                'GET intervu/api/<id:\d+>' => 'intervyu/api/get',
+                'PUT,POST intervu/api/<id:\d+>' => 'intervyu/api/create',
+                'PUT,PATCH intervu/api/<id:\d+>' => 'intervyu/api/update',
+                "DELETE intervu/api/<id:\d+>" => 'intervyu/api/delete',
             ],
-      </pre>
+        ],
+  </pre>
       
