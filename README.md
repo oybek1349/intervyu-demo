@@ -13,7 +13,7 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
 <ul>
     <li> Serverda MySQL ma'lumotlar oborini yarating.</li>
     <li> config papkasida joylashgan db.php faylga kirib ma'lumotlar omboridan foydalanish sozlamalarini o'rnating misol uchun:
-      <span >
+      <pre>
           return [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=asaxiy',
@@ -22,7 +22,7 @@ Dasturni ishga tushurish uchun quyidagi sozlamalarni amalga oshiring:
             'charset' => 'utf8',
             'tablePrefix' => 'as_',
         ];
-        </span>    
+        </pre>    
     </li>
     <li> Ma'lumotlar omborida dastur uchun kerakli bo'ladigan jadvallarni hosil qilish uchun,
         Server buyruq yozish oynasiga kirib quyidagi buyruqni ya'ni migratsiya buyrug'ini kiriting:
